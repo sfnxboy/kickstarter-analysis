@@ -16,9 +16,15 @@ In this project we will sharpen our Excel skills by applying several techniques 
 There were several notable pieces of analysis. Let us discuss two of our findings.
 
 ### Analysis of Outcomes Based on Launch Date
-	![](https://github.com/sfnxboy/kickstarter-analysis/blob/master/Outcomes_Based_on_Launch_Date.png)
+![Outcomes_Based_on_Launch_Date](https://user-images.githubusercontent.com/68082808/88490747-db8b2100-cf6b-11ea-8553-fa711a2aeddd.png)
+
+
+
 
 ### Analysis of Outcomes Based on Goals
+![Outcomes_Based_on_Goal](https://user-images.githubusercontent.com/68082808/88490682-37a17580-cf6b-11ea-9216-44320bdd5e81.png)
+
+My team and I filtered through the many Kickstarter campaigns and chose to work with the most prevalent subcategory, plays! Our objective was to discover if there was a correlation between the target goal of the Kickstarter Campaigns (in U.S. Dollars), and their success, or lack thereof. We found Excels built in =COUNTIFS() function easily does the job of filtering the data, including only plays and distinguishing goal amount. By adding the criteria “=success”, “=failed”, or “=canceled”, and imposing the =COUNTIFS() function across a table, the user can easily see find the numerical count of outcomes based on goal. It is however kinder to the eye to visualize percentages because they are very useful in quantifying change. Therefore, the chart is based on the count between the categories “Success”, “Failure”, and “Canceled”, over the total number of plays within that goal group.
 
 ### Challenges and Difficulties Encountered
 
