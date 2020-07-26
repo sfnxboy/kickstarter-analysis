@@ -16,7 +16,7 @@ In this project we will sharpen our Excel skills by applying several techniques 
 There were several notable pieces of analysis. Let us discuss two of our findings.
 
 ### Analysis of Outcomes Based on Launch Date
-	![alt text](outcomesbasedonlaunchdate.png)
+	![](Outcomes_Based_on_Launch_Date.png)
 
 ### Analysis of Outcomes Based on Goals
 
